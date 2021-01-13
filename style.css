@@ -1,8 +1,25 @@
 body {
+  font-family: "Courier New", Courier, monospace;
+}
+
+header::after {
   background-color: beige;
 }
-@media only screen and (max-width: 600px) {
-  body {
-    background-color: lightblue;
-  }
+
+a:hover {
+  color: magenta;
+  background-color: maroon;
+}
+
+#navbardiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: lightcoral;
+}
+
+#welcome-section {
+  height: 100vh;
+  display: flex;
+  text-align: center;
 }

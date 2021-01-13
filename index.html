@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
-   <style> @media only screen and (max-width: 600px) {
+   <style>
+    @media only screen and (max-width: 600px) {
         body {
           background-color: lightblue;
         }
@@ -13,20 +14,24 @@
 </style>
 </head>
 <body>
-    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js">
-    </script>  
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    
+    <nav id="navbar">
+        <div id="navbardiv">
+          <a href="#about" class="list-item">About</a>
+          <a href= "#promfam" class="list-item">Family</a>
+        </div>
+    </nav>  
     <header id="welcome-section">
         <h1>Umberto</h1>
     </header>
-    <nav id="navbar">
-        <a href="#about">about</a>
-    </nav>
+    
     <main>
        <section>
            <div id= "projects">
                 <div class= "project-tile" id="about">
                    <h2>Wiki</h2> 
-                   <a href= "https://en.wikipedia.org/wiki/Umberto_Cassuto"> 
+                   <a href= "https://en.wikipedia.org/wiki/Umberto_Cassuto" id="wiki-link"> 
                     <img src= "./assets/300px-Cassuto.jpg" alt="Rabbi M.D.C">
                 </a>
                </div>
@@ -44,7 +49,6 @@
     </section>
     </main>
     <footer>
-
     </footer>
 </body>
 </html>
